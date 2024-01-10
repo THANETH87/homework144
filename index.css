@@ -24,10 +24,11 @@
     overflow-y: auto;
     box-shadow: 0 0 20px #fefefe80;
     align-content: center;
+    justify-content: center
 }
 
 .dashboard {
-    background-color: #fafafa;
+    background-color: #b07474;
     height: 100px;
     display: flex;
     justify-content: space-between;
