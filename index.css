@@ -14,15 +14,16 @@
 }
 
 .todo-app {
-    background: #fbf9f9;
-    background: linear-gradient(to bottom, #1c03ff, #e6e6ea);
+    
+    
     padding: 20px;
     width: 600px;
     display: flex;
     flex-direction: column;
     gap: 8px;
     overflow-y: auto;
-    box-shadow: 0 0 20px #fefefe80
+    box-shadow: 0 0 20px #fefefe80;
+    align-content: center;
 }
 
 .dashboard {
@@ -31,7 +32,8 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding-inline: 8px
+    padding-inline: 8px;
+    border-radius: 1.9rem;
 }
 
 .form-add-todo,
@@ -47,17 +49,20 @@
     box-shadow: 0 0 2px #000;
     flex-grow: 8;
     font-size: large;
-    padding: 7px 8px
+    padding: 7px 8px;
+    border-radius:0.5rem
 }
 
 .form-add-todo>button {
     color: #fff;
-    background: red;
+    background: #c8e2aa;
     flex-grow: 2;
-    transition: transform .2s ease-in-out
+    transition: transform .2s ease-in-out;
+    border-radius: 2.5rem;
 }
 
 .form-add-todo>button:hover {
+    background-color: #5cac00;
     transform: scale(1.1);
     animation: bounce .5s ease-in-out infinite
 }
@@ -94,9 +99,9 @@
     display: flex;
     justify-content: space-between;
     font-size: large;
-    box-shadow: 0 0 3px #080808;
+    
     margin: 7px;
-    border-radius: 50px;
+    border-radius: 20px;
     transition: transform .2s ease-in-out
 }
 
@@ -106,6 +111,7 @@
 
 .todo-item p {
     width: 80%;
+    margin-top: 8px;
     white-space: nowrap;
     overflow-x: hidden;
     text-overflow: ellipsis
@@ -122,7 +128,7 @@
 }
 
 .todo-item .btn-group a {
-    background: #fff;
+    background: #e4dda2;
     border: 1px solid rgb(230, 240, 51);
     padding: 2px 10px;
     cursor: pointer;
